@@ -27,6 +27,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         
-    - run: npm install
-    - run: npm run test:unit
-    - run: echo "Movies CI/CD Piplene"
+    - name: Installing NPM
+      run: npm install
+    - name: Running Unit Test
+      run: npm run test:unit
+    - name: Display prodject name
+      run: echo "Movies CI/CD Piplene"
