@@ -70,4 +70,4 @@ jobs:
       - name: Running Unit Test
         run: npm run test:ui
         env:
-          DEPLOYED_URL: ${{secrets.DEPLOYED_URL}}
+          DEPLOYED_URL: ${{vars.DEPLOYED_URL}}
