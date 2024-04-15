@@ -18,5 +18,8 @@
     "mocha": "^10.2.0",
     "node-fetch": "^2.6.12",
     "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
